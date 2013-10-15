@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://projet-lo-43.googlecode.com/svn"
+   name=""
+   revision="121"
+   last-author="aurelien.signe"
+   url="https://projet-lo-43.googlecode.com/svn/trunk/ProjetBibliotheque/src/org/jdesktop/swingx/autocomplete/doc-files"
+   uuid="d44aae2c-8eec-b9db-84a3-f6acf672728c"
+   committed-rev="14"
+   kind="dir"
+   committed-date="2011-04-21T18:42:22.289716Z"/>
+<entry
+   name="example.gif"
+   checksum="9ef2ba354796718c9a0f744d2c07cf06"
+   last-author="aurelien.signe"
+   text-time="2011-04-21T18:42:22.000000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2011-04-21T18:42:22.289716Z"
+   prop-time="2011-05-11T16:42:27.000000Z"/>
+</wc-entries>

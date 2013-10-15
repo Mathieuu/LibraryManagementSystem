@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://projet-lo-43.googlecode.com/svn"
+   name=""
+   revision="121"
+   last-author="aurelien.signe"
+   url="https://projet-lo-43.googlecode.com/svn/trunk/ProjetBibliotheque/src/org/jdesktop/swingx"
+   uuid="d44aae2c-8eec-b9db-84a3-f6acf672728c"
+   committed-rev="14"
+   kind="dir"
+   committed-date="2011-04-21T18:42:22.289716Z"/>
+<entry
+   name="autocomplete"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
+ <object class="Donnees">
+  <void property="listeAuteurs">
+   <void method="add">
+    <object class="Auteur" id="Auteur0">
+     <void property="nom">
+      <string>Balavoine</string>
+     </void>
+     <void property="prenom">
+      <string>Daniel</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur1">
+     <void property="nom">
+      <string>Bardot</string>
+     </void>
+     <void property="prenom">
+      <string>Brigitte</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur2">
+     <void property="nom">
+      <string>Brassens</string>
+     </void>
+     <void property="prenom">
+      <string>Georges</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur">
+     <void property="nom">
+      <string>Daho</string>
+     </void>
+     <void property="prenom">
+      <string>Etienne</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur3">
+     <void property="nom">
+      <string>Flaubert</string>
+     </void>
+     <void property="prenom">
+      <string>Gustave</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur4">
+     <void property="nom">
+      <string>Franquin</string>
+     </void>
+     <void property="prenom">
+      <string>André</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur5">
+     <void property="nom">
+      <string>Gainsbourg</string>
+     </void>
+     <void property="prenom">
+      <string>Serge</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur6">
+     <void property="nom">
+      <string>Goscinny</string>
+     </void>
+     <void property="prenom">
+      <string>René</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur7">
+     <void property="nom">
+      <string>Haggarty</string>
+     </void>
+     <void property="prenom">
+      <string>Rod</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur">
+     <void property="nom">
+      <string>Higelin</string>
+     </void>
+     <void property="prenom">
+      <string>Jacques</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur">
+     <void property="nom">
+      <string>Polnareff</string>
+     </void>
+     <void property="prenom">
+      <string>Michel</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur">
+     <void property="nom">
+      <string>Roussin</string>
+     </void>
+     <void property="prenom">
+      <string>André</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur">
+     <void property="nom">
+      <string>Servat</string>
+     </void>
+     <void property="prenom">
+      <string>Gilles</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur8">
+     <void property="nom">
+      <string>Uderzo</string>
+     </void>
+     <void property="prenom">
+      <string>Albert</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Auteur" id="Auteur9">
+     <void property="nom">
+      <string>Zola</string>
+     </void>
+     <void property="prenom">
+      <string>Emile</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listeCategories">
+   <void method="add">
+    <object class="Categorie" id="Categorie0">
+     <void property="libelle">
+      <string>Bandes dessinées</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Categorie" id="Categorie1">
+     <void property="libelle">
+      <string>CDs</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Categorie">
+     <void property="libelle">
+      <string>Journaux</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Categorie">
+     <void property="libelle">
+      <string>Magazines</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Categorie" id="Categorie2">
+     <void property="libelle">
+      <string>Ouvrages scientifiques</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Categorie" id="Categorie3">
+     <void property="libelle">
+      <string>Romans</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listeEditeurs">
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>André Bruel</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur" id="Editeur0">
+     <void property="nom">
+      <string>Bordas</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Bruno Deniel-Laurent</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur" id="Editeur1">
+     <void property="nom">
+      <string>Flammarion</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur" id="Editeur2">
+     <void property="nom">
+      <string>Folio</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur" id="Editeur3">
+     <void property="nom">
+      <string>Gallimard</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Georges Charpentier</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur" id="Editeur4">
+     <void property="nom">
+      <string>Glénat</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Grasset</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Hachette</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Nathan</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Patrick Cinta</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Plon</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Robert Laffont</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur">
+     <void property="nom">
+      <string>Seuil</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Editeur" id="Editeur5">
+     <void property="nom">
+      <string>Universal</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listeEmprunteurs">
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur0">
+     <void property="mail">
+      <string>thibaut@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>ACKERMANN</string>
+     </void>
+     <void property="prenom">
+      <string>Thibaut</string>
+     </void>
+     <void id="Statut0" property="statut">
+      <void property="libelle">
+       <string>Etudiant</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur1">
+     <void property="mail">
+      <string>florian.coussin@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>COUSSIN</string>
+     </void>
+     <void property="prenom">
+      <string>Florian</string>
+     </void>
+     <void property="statut">
+      <object idref="Statut0"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur2">
+     <void property="mail">
+      <string>zu.dong@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>DONG</string>
+     </void>
+     <void property="prenom">
+      <string>Zu</string>
+     </void>
+     <void property="statut">
+      <object idref="Statut0"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur3">
+     <void property="mail">
+      <string>mireille.jacquot@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>DOTA</string>
+     </void>
+     <void property="prenom">
+      <string>Myriam</string>
+     </void>
+     <void id="Statut1" property="statut">
+      <void property="libelle">
+       <string>Administration</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur4">
+     <void property="mail">
+      <string>frack.duhamel@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>DUHAMEL</string>
+     </void>
+     <void property="prenom">
+      <string>Franck</string>
+     </void>
+     <void property="statut">
+      <object idref="Statut0"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur5">
+     <void property="mail">
+      <string>jean.ferut@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>FERUT</string>
+     </void>
+     <void property="prenom">
+      <string>Jean</string>
+     </void>
+     <void id="Statut2" property="statut">
+      <void property="libelle">
+       <string>Professeur</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur">
+     <void property="mail">
+      <string>julien.lefebvre@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>LEFEBVRE</string>
+     </void>
+     <void property="prenom">
+      <string>Julien</string>
+     </void>
+     <void property="statut">
+      <object idref="Statut0"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur6">
+     <void property="mail">
+      <string>arnaud.malgouyres@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>MALGOUYRES</string>
+     </void>
+     <void property="prenom">
+      <string>Arnaud</string>
+     </void>
+     <void property="statut">
+      <object idref="Statut0"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur7">
+     <void property="mail">
+      <string>francois.martin@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>MARTIN</string>
+     </void>
+     <void property="prenom">
+      <string>Francois</string>
+     </void>
+     <void property="statut">
+      <object idref="Statut2"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur8">
+     <void property="mail">
+      <string>marie.orthez@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>ORTHEZ</string>
+     </void>
+     <void property="prenom">
+      <string>Marie</string>
+     </void>
+     <void id="Statut3" property="statut">
+      <void property="libelle">
+       <string>Personnel d&apos;entretien</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunteur" id="Emprunteur9">
+     <void property="mail">
+      <string>aurelien@utbm.fr</string>
+     </void>
+     <void property="nom">
+      <string>SIGNE</string>
+     </void>
+     <void property="prenom">
+      <string>Aurélien</string>
+     </void>
+     <void property="statut">
+      <object idref="Statut0"/>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listePrets">
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1307484000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1310076000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document0">
+       <void property="annee">
+        <int>1979</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur5"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie1"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur5"/>
+       </void>
+       <void property="idDocument">
+        <string>GAAU</string>
+       </void>
+       <void property="titre">
+        <string>Aux Armes et Caetera</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur0"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1307484000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1310076000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document1">
+       <void property="annee">
+        <int>1869</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur3"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie3"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur1"/>
+       </void>
+       <void property="idDocument">
+        <string>FLLE0</string>
+       </void>
+       <void property="titre">
+        <string>L&apos;éducation sentimentale</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur0"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1295391600000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1298070000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document2">
+       <void property="annee">
+        <int>1954</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur2"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie1"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur5"/>
+       </void>
+       <void property="idDocument">
+        <string>BRLE0</string>
+       </void>
+       <void property="titre">
+        <string>Les Sabots d&apos;Hélène</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur1"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1307484000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1310076000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document3">
+       <void property="annee">
+        <int>1974</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur6"/>
+         </void>
+         <void method="add">
+          <object idref="Auteur8"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie0"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur3"/>
+       </void>
+       <void property="idDocument">
+        <string>GOAS</string>
+       </void>
+       <void property="titre">
+        <string>Astérix en Corse</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur2"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1322953200000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1325631600000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document4">
+       <void property="annee">
+        <int>1879</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur9"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie3"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur2"/>
+       </void>
+       <void property="idDocument">
+        <string>ZOPO0</string>
+       </void>
+       <void property="titre">
+        <string>Pot-Bouille</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur2"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1307484000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1310076000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document5">
+       <void property="annee">
+        <int>1877</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur9"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie3"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur3"/>
+       </void>
+       <void property="idDocument">
+        <string>ZOLA0</string>
+       </void>
+       <void property="titre">
+        <string>L&apos;Assommoir</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur3"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1287007200000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1289689200000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object idref="Document2"/>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur3"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1304805600000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1307484000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document6">
+       <void property="annee">
+        <int>1857</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur3"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie3"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur1"/>
+       </void>
+       <void property="idDocument">
+        <string>FLMA0</string>
+       </void>
+       <void property="titre">
+        <string>Madame Bovary</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur3"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1286488800000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1289170800000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document7">
+       <void property="annee">
+        <int>1968</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur5"/>
+         </void>
+         <void method="add">
+          <object idref="Auteur1"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie1"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur5"/>
+       </void>
+       <void property="idDocument">
+        <string>GABO</string>
+       </void>
+       <void property="titre">
+        <string>Bonnie and Clyde</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur4"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1297983600000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1300402800000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object idref="Document2"/>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur4"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1303250400000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1305842400000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document8">
+       <void property="annee">
+        <int>1877</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur9"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie3"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur3"/>
+       </void>
+       <void property="idDocument">
+        <string>ZONA0</string>
+       </void>
+       <void property="titre">
+        <string>Nana</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur4"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1300489200000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1303164000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object idref="Document7"/>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur5"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1307484000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1310076000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document9">
+       <void property="annee">
+        <int>1952</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur2"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie1"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur5"/>
+       </void>
+       <void property="idDocument">
+        <string>BRLA0</string>
+       </void>
+       <void property="titre">
+        <string>La Mauvaise Réputation</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur5"/>
+     </void>
+     <void property="rendu">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1322780400000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1325458800000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document10">
+       <void property="annee">
+        <int>1986</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur4"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie0"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur3"/>
+       </void>
+       <void property="idDocument">
+        <string>FRLE0</string>
+       </void>
+       <void property="titre">
+        <string>Le Lourd Passé de Lagaffe</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur5"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1307484000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1310076000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document11">
+       <void property="annee">
+        <int>1985</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur0"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie1"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur5"/>
+       </void>
+       <void property="idDocument">
+        <string>BASA0</string>
+       </void>
+       <void property="titre">
+        <string>Sauver l&apos;Amour</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur6"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1291330800000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1294009200000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document12">
+       <void property="annee">
+        <int>2005</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur7"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie2"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur0"/>
+       </void>
+       <void property="idDocument">
+        <string>ROMA0</string>
+       </void>
+       <void property="titre">
+        <string>Mathématiques discrètes appliquées à l&apos;informatique</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur7"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1299538800000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1302213600000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document13">
+       <void property="annee">
+        <int>1883</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur9"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie3"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur4"/>
+       </void>
+       <void property="idDocument">
+        <string>ZOAU0</string>
+       </void>
+       <void property="titre">
+        <string>Au Bonheur des Dames</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur8"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1305583200000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1308261600000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document14">
+       <void property="annee">
+        <int>1959</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur6"/>
+         </void>
+         <void method="add">
+          <object idref="Auteur8"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie0"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur3"/>
+       </void>
+       <void property="idDocument">
+        <string>GOAS0</string>
+       </void>
+       <void property="titre">
+        <string>Astérix le Gaulois</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur9"/>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Emprunt">
+     <void property="dateEmprunt">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1305756000000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="dateRetour">
+      <object class="java.util.GregorianCalendar">
+       <void property="time">
+        <object class="java.util.Date">
+         <long>1308434400000</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="document">
+      <object class="Document" id="Document15">
+       <void property="annee">
+        <int>1991</int>
+       </void>
+       <void property="auteurs">
+        <object class="java.util.ArrayList">
+         <void method="add">
+          <object idref="Auteur6"/>
+         </void>
+         <void method="add">
+          <object idref="Auteur8"/>
+         </void>
+        </object>
+       </void>
+       <void property="categorie">
+        <object idref="Categorie0"/>
+       </void>
+       <void property="editeur">
+        <object idref="Editeur3"/>
+       </void>
+       <void property="idDocument">
+        <string>GOLA</string>
+       </void>
+       <void property="titre">
+        <string>La Rose et le Glaive</string>
+       </void>
+      </object>
+     </void>
+     <void property="emprunteur">
+      <object idref="Emprunteur9"/>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listeStatuts">
+   <void method="add">
+    <object idref="Statut1"/>
+   </void>
+   <void method="add">
+    <object class="Statut">
+     <void property="libelle">
+      <string>Consultant externe</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object idref="Statut0"/>
+   </void>
+   <void method="add">
+    <object idref="Statut3"/>
+   </void>
+   <void method="add">
+    <object idref="Statut2"/>
+   </void>
+  </void>
+  <void property="tableDocuments">
+   <void method="put">
+    <string>BRLE0</string>
+    <object idref="Document2"/>
+   </void>
+   <void method="put">
+    <string>FRLA0</string>
+    <object class="Document">
+     <void property="annee">
+      <int>1979</int>
+     </void>
+     <void property="auteurs">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object idref="Auteur4"/>
+       </void>
+      </object>
+     </void>
+     <void property="categorie">
+      <object idref="Categorie0"/>
+     </void>
+     <void property="editeur">
+      <object idref="Editeur3"/>
+     </void>
+     <void property="idDocument">
+      <string>FRLA0</string>
+     </void>
+     <void property="titre">
+      <string>Lagaffe Mérite des Baffes</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>BRLA0</string>
+    <object idref="Document9"/>
+   </void>
+   <void method="put">
+    <string>FLMA0</string>
+    <object idref="Document6"/>
+   </void>
+   <void method="put">
+    <string>FLLE0</string>
+    <object idref="Document1"/>
+   </void>
+   <void method="put">
+    <string>FRLE0</string>
+    <object idref="Document10"/>
+   </void>
+   <void method="put">
+    <string>ZOPO0</string>
+    <object idref="Document4"/>
+   </void>
+   <void method="put">
+    <string>ROMA0</string>
+    <object idref="Document12"/>
+   </void>
+   <void method="put">
+    <string>BASA0</string>
+    <object idref="Document11"/>
+   </void>
+   <void method="put">
+    <string>GAAU</string>
+    <object idref="Document0"/>
+   </void>
+   <void method="put">
+    <string>GOAS0</string>
+    <object idref="Document14"/>
+   </void>
+   <void method="put">
+    <string>GOAS</string>
+    <object idref="Document3"/>
+   </void>
+   <void method="put">
+    <string>ZONA0</string>
+    <object idref="Document8"/>
+   </void>
+   <void method="put">
+    <string>GOLA</string>
+    <object idref="Document15"/>
+   </void>
+   <void method="put">
+    <string>ZOLA0</string>
+    <object idref="Document5"/>
+   </void>
+   <void method="put">
+    <string>GABO</string>
+    <object idref="Document7"/>
+   </void>
+   <void method="put">
+    <string>ZOAU0</string>
+    <object idref="Document13"/>
+   </void>
+  </void>
+ </object>
+</java>

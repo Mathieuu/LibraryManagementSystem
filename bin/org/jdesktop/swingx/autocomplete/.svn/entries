@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://projet-lo-43.googlecode.com/svn"
+   name=""
+   revision="121"
+   last-author="aurelien.signe"
+   url="https://projet-lo-43.googlecode.com/svn/trunk/ProjetBibliotheque/src/org/jdesktop/swingx/autocomplete"
+   uuid="d44aae2c-8eec-b9db-84a3-f6acf672728c"
+   committed-rev="14"
+   kind="dir"
+   committed-date="2011-04-21T18:42:22.289716Z"/>
+<entry
+   name="AbstractComponentAdaptor.java"
+   checksum="ab36dfd88033b48bc596f050dcbfbd94"
+   last-author="aurelien.signe"
+   text-time="2011-04-21T18:42:22.000000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2011-04-21T18:42:22.289716Z"
+   prop-time="2011-05-11T16:42:27.000000Z"/>
+<entry
+   name="ComboBoxAdaptor.java"
+   checksum="37eabd904944141f6829361bc25d4091"
+   last-author="aurelien.signe"
+   text-time="2011-04-21T18:42:22.000000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2011-04-21T18:42:22.289716Z"
+   prop-time="2011-05-11T16:42:27.000000Z"/>
+<entry
+   name="ComboBoxCellEditor.java"
+   checksum="140f8f0288de2d5ec53353dba8a69b41"
+   last-author="aurelien.signe"
+   text-time="2011-04-21T18:42:22.000000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2011-04-21T18:42:22.289716Z"
+   prop-time="2011-05-11T16:42:27.000000Z"/>
+<entry
+   name="Configurator.java"
+   checksum="5775b87d4b4004a261b1a85ee80df575"
+   last-author="aurelien.signe"
+   text-time="2011-04-21T18:42:22.000000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2011-04-21T18:42:22.289716Z"
+   prop-time="2011-05-11T16:42:27.000000Z"/>
+<entry
+   name="Document.java"
+   checksum="ea49077c9c1715b14e0c44fcdc031068"
+   last-author="aurelien.signe"
+   text-time="2011-04-21T18:42:22.000000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2011-04-21T18:42:22.289716Z"
+   prop-time="2011-05-11T16:42:27.000000Z"/>
+<entry
+   name="ListAdaptor.java"
+   checksum="45a3b70d14bccc5a69ce3bbf2d5ed3e9"
+   last-author="aurelien.signe"
+   text-time="2011-04-21T18:42:22.000000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2011-04-21T18:42:22.289716Z"
+   prop-time="2011-05-11T16:42:27.000000Z"/>
+<entry
+   name="doc-files"
+   kind="dir"/>
+<entry
+   name="package.html"
+   checksum="0375f310a9b6408a66e4f13c41da7ae2"
+   last-author="aurelien.signe"
+   text-time="2011-04-21T18:42:22.000000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2011-04-21T18:42:22.289716Z"
+   prop-time="2011-05-11T16:42:27.000000Z"/>
+</wc-entries>
