@@ -14,13 +14,13 @@ import javax.swing.table.TableCellRenderer;
 */
 public class RendererModifier extends JButton implements TableCellRenderer, TableCellEditor
 {
-	private static final long serialVersionUID = 1L;
-	private Object value;
+    private static final long serialVersionUID = 1L;
+    private Object value;
     
     public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column)
     {
-    	//setText("Modifier");
-    	setIcon(new ImageIcon("edit.gif"));
+        //setText("Modifier");
+        setIcon(new ImageIcon("edit.gif"));
         return this;
     }
  

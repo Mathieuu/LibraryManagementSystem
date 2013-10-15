@@ -14,13 +14,13 @@ import javax.swing.table.TableCellRenderer;
 */
 public class RendererSupprimer extends JButton implements TableCellRenderer, TableCellEditor
 {
-	private static final long serialVersionUID = 1L;
-	private Object value;
+    private static final long serialVersionUID = 1L;
+    private Object value;
     
     public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column)
     {
-    	//setText("Supprimer");
-    	setIcon(new ImageIcon("remove.png"));
+        //setText("Supprimer");
+        setIcon(new ImageIcon("remove.png"));
         return this;
     }
  
@@ -28,7 +28,7 @@ public class RendererSupprimer extends JButton implements TableCellRenderer, Tab
     {
         this.value=value;
         setIcon(new ImageIcon("remove.png"));  
-    	Bibliotheque.Controller.suppression(table, table.getModel().getValueAt(row, 0));
+        Bibliotheque.Controller.suppression(table, table.getModel().getValueAt(row, 0));
         return null;
     }
  

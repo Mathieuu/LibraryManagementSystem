@@ -7,19 +7,19 @@ import javax.swing.*;
 */
 public class OngletStatistique extends JPanel
 {
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	/**
-	* Cree un nouvel objet OngletStatistique
-	*/
-	public OngletStatistique()
-	{
-		this.setLayout(new BorderLayout());
-		
-		JPanel panelTableau = new JPanel();	
-		panelTableau.setLayout(new BoxLayout(panelTableau, BoxLayout.PAGE_AXIS));
-		panelTableau.add(new GraphicStats());
-		
-		this.add(panelTableau, BorderLayout.CENTER);
-	}
+    /**
+    * Cree un nouvel objet OngletStatistique
+    */
+    public OngletStatistique()
+    {
+        this.setLayout(new BorderLayout());
+        
+        JPanel panelTableau = new JPanel(); 
+        panelTableau.setLayout(new BoxLayout(panelTableau, BoxLayout.PAGE_AXIS));
+        panelTableau.add(new GraphicStats());
+        
+        this.add(panelTableau, BorderLayout.CENTER);
+    }
 }

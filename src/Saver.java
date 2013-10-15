@@ -8,26 +8,26 @@ import java.io.FileOutputStream;
 */
 public class Saver
 {
-	/**
-	 * Sauvegarde les donnees de la bibliotheque
-	 * @return true si la serialization s'est bien passe, false sinon
-	 */
-	public static boolean Save()
-	{
-		try
-		{
-			XMLEncoder encoder = new XMLEncoder(new FileOutputStream("Donnees.xml"));
-			encoder.writeObject(Bibliotheque.Data);
-			encoder.flush();
-			encoder.close();
-		}
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-			return false;
-		}
-		
-		return true;
-	}
-	
+    /**
+     * Sauvegarde les donnees de la bibliotheque
+     * @return true si la serialization s'est bien passe, false sinon
+     */
+    public static boolean Save()
+    {
+        try
+        {
+            XMLEncoder encoder = new XMLEncoder(new FileOutputStream("Donnees.xml"));
+            encoder.writeObject(Bibliotheque.Data);
+            encoder.flush();
+            encoder.close();
+        }
+        catch (FileNotFoundException e)
+        {
+            e.printStackTrace();
+            return false;
+        }
+        
+        return true;
+    }
+    
 }
