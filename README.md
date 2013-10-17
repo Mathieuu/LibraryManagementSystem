@@ -3,7 +3,7 @@ Library Management System
 
 ####Software description
 
-This software is used to track items of a library. It provides mechanisms to manage documents, authors, editors, categories, borrowers and handle different acces levels. Borrowers can also use the application but only to search documents. The software has been developped in Java with SWING.
+This software is used to track items of a library. It provides mechanisms to manage documents, authors, editors, categories, borrowers and handle different acces levels. Borrowers can also use the application but only to search documents. The software has been developped with Java and SWING.
 
 ####How to make it work ?
 
